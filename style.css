@@ -1,0 +1,34 @@
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr-nxbRuDWrRZEZA8_g4WfHlD-MV0KVWpNQZI4SQfLmQ&s=10");
+    background-size: cover;
+}
+
+div {
+    height: 20px;
+    width: 500px;
+    border-radius: 10px;
+    border: 0.5px solid black;
+    box-shadow: 2px 2px #5e5d5d;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+input {
+    background-color: rgb(148, 188, 164);
+    color: black;
+
+}
+
+h1 {
+    font-size: 2000;
+}
+
+div:hover {
+    transform: scale(1.005);
+    box-shadow: 4px 4px rgb(126, 120, 120);
+}
